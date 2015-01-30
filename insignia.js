@@ -204,7 +204,7 @@ function insignia (el, o) {
     el.value = rest;
     p.start -= removal;
     p.end -= removal;
-    selection(el, p);
+    // selection(el, p);
     auto.refresh();
   }
 
